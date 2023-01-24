@@ -2,6 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-.home-img {
-  background-image: url('/arnold-francisca-f77Bh3inUpE-unsplash.jpg');
+body {
+  background: #251B37;
 }

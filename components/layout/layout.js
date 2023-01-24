@@ -1,11 +1,13 @@
 import Navbar from '../navbar'
 import Hero from '../hero'
 
+// @ts-ignore
 export default function Layout({ children }) {
-    return (<>
+    return (
+    <>
         <Navbar></Navbar>
-        <Hero></Hero>
         <div className="container mx-auto">
+        <Hero></Hero>
             <main className="flex-1">
                {children}
             </main>
